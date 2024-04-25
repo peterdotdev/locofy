@@ -1,0 +1,116 @@
+.frameParent,
+.listingDetailsSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.listingDetailsSection {
+  gap: var(--gap-11xl);
+}
+.frameParent {
+  background-color: var(--color-gray-100);
+  padding: var(--padding-xl) var(--padding-31xl);
+  box-sizing: border-box;
+  gap: 44px;
+}
+.contactUs,
+.localhostIncAll,
+.privacyPolicy,
+.termsConditions {
+  position: relative;
+  line-height: 17px;
+  font-weight: 300;
+}
+.contactUs,
+.privacyPolicy,
+.termsConditions {
+  display: inline-block;
+  min-width: 85px;
+}
+.contactUs,
+.termsConditions {
+  min-width: 120px;
+}
+.contactUs {
+  min-width: 67px;
+}
+.privacyPolicyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.bandInner,
+.localhostIncAllRightsResParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1280px;
+}
+.localhostIncAllRightsResParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.bandInner {
+  width: 100%;
+  justify-content: center;
+}
+.band,
+.propertyDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.band {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  border-top: 1px solid var(--light-grey-border);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-61xl) var(--padding-xs);
+  max-width: 100%;
+}
+.propertyDetails {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .bandInner,
+  .localhostIncAllRightsResParent {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .localhostIncAllRightsResParent {
+    flex-wrap: wrap;
+  }
+  .band {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .privacyPolicyParent {
+    flex-wrap: wrap;
+  }
+}

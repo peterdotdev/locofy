@@ -1,0 +1,799 @@
+.amenities {
+  margin: 0;
+  width: 780.8px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.mdilakeIcon {
+  height: 21px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lakeside {
+  position: relative;
+  display: inline-block;
+  min-width: 64px;
+}
+.mdilakeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.tablertoolsKitchen2Icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.kitchen {
+  flex: 1;
+  position: relative;
+}
+.tablertoolsKitchen2Parent {
+  width: 96px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.materialSymbolsnestCamIqOIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.securityCamerasOn {
+  position: relative;
+}
+.materialSymbolsnestCamIqOParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.ionwifiIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.wifi {
+  position: relative;
+  display: inline-block;
+  min-width: 27px;
+}
+.amenitiessection1,
+.ionwifiParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.amenitiessection1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl-3) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 195px;
+}
+.phcarIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.freeParking {
+  position: relative;
+  display: inline-block;
+  min-width: 89px;
+}
+.phcarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.cilshowerIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.outdoorShower {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+}
+.cilshowerParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.materialSymbolswaterVocOutIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.hotWater {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+}
+.materialSymbolswaterVocOutParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.covidpersonalHygieneHandLiIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.shampoo {
+  position: relative;
+  display: inline-block;
+  min-width: 70px;
+}
+.amenitiessection2,
+.covidpersonalHygieneHandLiParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.amenitiessection2 {
+  flex: 0.605;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-97xl-3) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 195px;
+}
+.phfireExtinguisherIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.fireExtinguisher {
+  position: relative;
+  display: inline-block;
+  min-width: 120px;
+}
+.phfireExtinguisherParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.streamlinefoodKitchenwareReIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.freezer {
+  position: relative;
+  display: inline-block;
+  min-width: 55px;
+}
+.streamlinefoodKitchenwareReParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.materialSymbolscoffeeMakerIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.coffeeMaker {
+  position: relative;
+  display: inline-block;
+  min-width: 95px;
+}
+.materialSymbolscoffeeMakerParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.mdistoveIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.glassStove {
+  position: relative;
+  display: inline-block;
+  min-width: 84px;
+}
+.mdistoveParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.amenitiessection1Parent,
+.amenitiessection3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.amenitiessection3 {
+  flex: 0.6303;
+  flex-direction: column;
+  padding: 0 var(--padding-91xl-3) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+  min-width: 195px;
+}
+.amenitiessection1Parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+}
+.searchFlightsButton {
+  width: 185px;
+  height: 48px;
+}
+.searchFlightsButton:hover {
+  background-color: var(--color-saddlebrown);
+}
+.amenitiesParent,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-base);
+}
+.amenitiesParent {
+  flex: 1;
+  gap: var(--gap-xl);
+  min-width: 547px;
+  max-width: 100%;
+}
+.whereYoullBe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: inherit;
+}
+.vectorIcon {
+  height: 11px;
+  width: 9.3px;
+  position: relative;
+}
+.theBridlePath {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+}
+.vectorParent,
+.whereYoullBeParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.vectorParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-base);
+}
+.whereYoullBeParent {
+  width: 326px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.suncloudIcon {
+  height: 47px;
+  width: 47px;
+  position: relative;
+}
+.temperature,
+.weatherDetail {
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.temperature {
+  line-height: 150%;
+  font-weight: 600;
+  min-width: 38px;
+}
+.weatherDetail {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-200);
+  min-width: 93px;
+  white-space: nowrap;
+}
+.weatherInfo,
+.weatherInfo1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weatherInfo1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  gap: var(--gap-11xs);
+}
+.weatherInfo {
+  width: 108px;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.c,
+.sunIcon {
+  position: relative;
+}
+.sunIcon {
+  width: 40px;
+  height: 40px;
+}
+.c {
+  align-self: stretch;
+  height: 11px;
+  display: inline-block;
+}
+.cWrapper,
+.sunParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper {
+  align-self: stretch;
+  align-items: center;
+}
+.sunParent {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug,
+.sun {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameDiv,
+.sunGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sunGroup {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameDiv {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.suncloudIcon1 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c1 {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.cContainer,
+.suncloudParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cContainer {
+  align-self: stretch;
+  align-items: center;
+}
+.suncloudParent {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug1,
+.mon {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent1,
+.monParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.monParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameParent1 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.c2,
+.sunIcon1 {
+  position: relative;
+}
+.sunIcon1 {
+  width: 40px;
+  height: 40px;
+}
+.c2 {
+  align-self: stretch;
+  height: 11px;
+  display: inline-block;
+}
+.cFrame,
+.sunContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cFrame {
+  align-self: stretch;
+  align-items: center;
+}
+.sunContainer {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug2,
+.tue {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent2,
+.tueParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tueParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameParent2 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.suncloudIcon2 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c3 {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.cWrapper1,
+.suncloudGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper1 {
+  align-self: stretch;
+  align-items: center;
+}
+.suncloudGroup {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug3,
+.wed {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent3,
+.wedParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.wedParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameParent3 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.suncloudIcon3 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.c4 {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.cWrapper2,
+.suncloudContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper2 {
+  align-self: stretch;
+  align-items: center;
+}
+.suncloudContainer {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.aug4,
+.thu {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.frameParent4,
+.thuParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.thuParent {
+  width: 40px;
+  display: flex;
+  align-items: center;
+}
+.frameParent4 {
+  display: none;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.c5,
+.sunIcon2 {
+  position: relative;
+}
+.sunIcon2 {
+  width: 40px;
+  height: 40px;
+}
+.c5 {
+  align-self: stretch;
+  height: 11px;
+  display: inline-block;
+}
+.cWrapper3,
+.sunParent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cWrapper3 {
+  align-self: stretch;
+  align-items: center;
+}
+.sunParent1 {
+  width: 40px;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+}
+.fri,
+.sep {
+  align-self: stretch;
+  height: 11px;
+  position: relative;
+  display: inline-block;
+}
+.friParent {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameParent5,
+.weatherInfoParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  display: none;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.weatherInfoParent {
+  width: 154px;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: center;
+  font-size: var(--font-size-3xs);
+}
+.frameChild,
+.frameContainer {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 20px;
+  gap: var(--gap-0);
+}
+.frameChild {
+  height: 248px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.symbolStackerIcon {
+  width: 37px;
+  height: 65px;
+  position: absolute;
+  margin: 0 !important;
+  right: 12px;
+  bottom: 161px;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.frameGroup,
+.locationAmenities,
+.locationAmenitiesInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.locationAmenitiesInner {
+  width: 480px;
+  flex-direction: column;
+  min-width: 480px;
+}
+.locationAmenities {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-lgi);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--dark);
+  font-family: var(--font-archivo);
+}
+@media screen and (max-width: 1275px) {
+  .locationAmenitiesInner {
+    flex: 1;
+  }
+  .locationAmenities {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .amenitiessection1Parent {
+    flex-wrap: wrap;
+  }
+  .amenitiesParent {
+    min-width: 100%;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+  .locationAmenitiesInner {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .amenities {
+    font-size: var(--font-size-lgi);
+  }
+  .amenitiessection2,
+  .amenitiessection3 {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+  .whereYoullBe {
+    font-size: var(--font-size-lgi);
+  }
+}
